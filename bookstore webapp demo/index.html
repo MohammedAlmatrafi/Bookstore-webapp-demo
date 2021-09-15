@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBookstoreDemo</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-opt"> <a href="about.html">من نحن</a> </li>
+                <li class="nav-opt"> <a href="index.html">الرئيسية</a> </li>
+                <li id="branding"> المكتبة الإفتراضية</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-body">
+        <section id="content">
+            <div class="cont-order">
+                <h1>كتابك بين يديك أطلب الآن!</h1>
+                <button onclick="buyingBooks();">أطلب</button>
+            </div>
+            <div class="cont-table">
+                <table>
+                    <tr>
+                        <th>ID</th>
+                        <th>Book Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>001</td>
+                        <td>Start With Why</td>
+                        <td>Simon Sinek</td>
+                        <td>80 SR</td>
+                        <td id="001-q">13</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>But how do it know</td>
+                        <td>j. Clark Scott</td>
+                        <td>59.9 SR</td>
+                        <td id="002-q">22</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Clean code</td>
+                        <td>Robert Cecil Martin</td>
+                        <td>50 SR</td>
+                        <td id="003-q">5</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Zero to one</td>
+                        <td>Peter Thiel</td>
+                        <td>45 SR</td>
+                        <td id="004-q">12</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>You don't know js</td>
+                        <td>Kyle Simpson</td>
+                        <td>39.9 SR</td>
+                        <td id="005-q">9</td>
+                    </tr>
+                    <tr> 
+                        <td colspan="5">Contact the staff to add a book</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="footer-copyright">DEMO PROJECT BY MOHAMMED ALMATRAFI, APPLICATION OF HTML,CSS, AND JAVASCRIPT</p>
+    </footer>
+    
+    
+</body>
+</html>
